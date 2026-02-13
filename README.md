@@ -33,3 +33,20 @@ Click below to open and run in Colab:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
 [https://colab.research.google.com/drive/1uvH1S_U-isy0zt7-27aPrQ61ArQ3vH1I#scrollTo=UBIqP2HZY-2E](https://colab.research.google.com/drive/1pN1sXItq4POBiO7l3syfDvplnrRLdQoG)
+
+
+## Results
+
+•⁠  ⁠Random Forest Accuracy: 0.78  
+•⁠  ⁠XGBoost Accuracy: 0.84  
+•⁠  ⁠XGBoost Recall (Diabetes class): 0.82  
+•⁠  ⁠F1 Score: 0.83  
+
+XGBoost performed better than the baseline Random Forest model,
+especially in recall for the positive (diabetes) class.
+
+## Business / Healthcare Relevance
+
+In healthcare, recall is especially important because failing to detect
+a true diabetes case (false negative) can delay treatment and increase risk.
+Therefore, improving recall for the positive class was prioritized over accuracy alone.
