@@ -1,1 +1,34 @@
-# XGBoost_Disease_Diagnosis
+# XGBoost Disease Diagnosis (Diabetes Prediction)
+
+This project predicts whether a patient is likely to have diabetes using the *Pima Indians Diabetes dataset*.  
+It compares a baseline model (*Random Forest) with **XGBoost (gradient boosting)* and evaluates performance using:
+•⁠  ⁠Accuracy
+•⁠  ⁠Classification Report (Precision, Recall, F1-score)
+•⁠  ⁠ROC-AUC (optional)
+•⁠  ⁠Confusion Matrix
+•⁠  ⁠Feature Importance
+
+## Dataset
+•⁠  ⁠Source: Pima Indians Diabetes Dataset (loaded from a public URL in the notebook)
+•⁠  ⁠Target column: ⁠ Outcome ⁠
+  - ⁠ 0 ⁠ = No Diabetes
+  - ⁠ 1 ⁠ = Diabetes
+
+## Models Used
+•⁠  ⁠*RandomForestClassifier* (baseline)
+•⁠  ⁠*XGBoost (XGBClassifier)* (final model)
+
+## Evaluation Metrics (What they mean)
+•⁠  ⁠*Accuracy*: Overall % of correct predictions
+•⁠  ⁠*Precision*: When the model predicts diabetes, how often it’s correct
+•⁠  ⁠*Recall*: Out of all true diabetes cases, how many the model detects (important in healthcare)
+•⁠  ⁠*F1-score*: Balance of precision and recall
+•⁠  ⁠*Confusion Matrix*: Shows TP, TN, FP, FN
+•⁠  ⁠*Feature Importance*: Highlights which features most influenced predictions
+
+## How to Run
+
+### Option 1: Run in Google Colab (Recommended)
+Click below to open and run in Colab:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
