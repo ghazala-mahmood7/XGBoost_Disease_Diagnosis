@@ -37,13 +37,13 @@ Click below to open and run in Colab:
 
 ## Results
 
-•⁠  ⁠Random Forest Accuracy: 0.78  
-•⁠  ⁠XGBoost Accuracy: 0.84  
-•⁠  ⁠XGBoost Recall (Diabetes class): 0.82  
-•⁠  ⁠F1 Score: 0.83  
+•⁠  ⁠XGBoost Accuracy: 75.3%
+•⁠  ⁠Recall (Diabetes class): 65%
+•⁠  ⁠F1-score (Diabetes class): 0.65
 
-XGBoost performed better than the baseline Random Forest model,
-especially in recall for the positive (diabetes) class.
+The model performs well on the majority class (No Diabetes),
+but recall for the positive (Diabetes) class is lower (65%),
+meaning some true diabetes cases are missed (false negatives).
 
 ## Business / Healthcare Relevance
 
