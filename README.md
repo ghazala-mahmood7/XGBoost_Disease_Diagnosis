@@ -32,4 +32,4 @@ It compares a baseline model (*Random Forest) with **XGBoost (gradient boosting)
 Click below to open and run in Colab:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
-https://colab.research.google.com/drive/1uvH1S_U-isy0zt7-27aPrQ61ArQ3vH1I#scrollTo=UBIqP2HZY-2E
+[https://colab.research.google.com/drive/1uvH1S_U-isy0zt7-27aPrQ61ArQ3vH1I#scrollTo=UBIqP2HZY-2E](https://colab.research.google.com/drive/1pN1sXItq4POBiO7l3syfDvplnrRLdQoG)
